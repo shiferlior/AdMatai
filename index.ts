@@ -11,7 +11,7 @@ const app = express();
 // app.use(express.static('public'));
 let name,phone,desc;
 
-//
+
 
 app.get('/s', (req, res) => {
   name = req.query.n;
