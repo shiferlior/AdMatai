@@ -8,6 +8,7 @@ const app = express();
 // app.use('/person', person);
 // app.use(express.static('public'));
 let name, phone, desc;
+//
 app.get('/s', (req, res) => {
     name = req.query.n;
     phone = req.query.p;
@@ -24,7 +25,7 @@ var sequelize = new Sequelize('test', 'l', 'lior1234', {
         idle: 10000
     }
 });
-var ;
+var person = new person;
 // sequelize
 //   .authenticate()
 //   .then(function(err) {

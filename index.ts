@@ -3,7 +3,7 @@ let person = require('./person.route');
 let config = require('config');
 import express = require('express');
 import Sequelize = require('sequelize');
-import {person} from './person';
+import {Person} from './person';
 const app = express();
 
 
@@ -11,7 +11,7 @@ const app = express();
 // app.use(express.static('public'));
 let name,phone,desc;
 
-
+//
 
 app.get('/s', (req, res) => {
   name = req.query.n;
@@ -34,7 +34,7 @@ var sequelize = new Sequelize('test', 'l', 'lior1234', {
   }
 });
 
-var 
+var person = new person
 
 // sequelize
 //   .authenticate()
